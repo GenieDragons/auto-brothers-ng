@@ -1,0 +1,83 @@
+// Header Styles
+header {
+    h1 {
+      font-size: 3.5rem;
+      font-family: 'Roboto', sans-serif;
+      color: #343a40; // Dark color for contrast
+    }
+    
+    p {
+      font-size: 1.25rem;
+      color: #6c757d; // Muted color for subtlety
+    }
+  }
+  
+  // Services Section
+  .services .service-card {
+    border: none;
+    border-radius: 0.5rem; // More rounded corners for modern feel
+    transition: transform 0.3s ease, box-shadow 0.3s ease; // Smooth hover effect
+    cursor: pointer;
+  }
+  
+  .services .service-card:hover {
+    transform: translateY(-5px); // Lift effect on hover
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); // Stronger shadow for depth
+  }
+  
+  .services .card-img-top {
+    height: 200px;
+    object-fit: cover; // Maintain aspect ratio and avoid distortion
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  
+  .services .card-title {
+    font-size: 1.5rem;
+    color: #007bff; // Primary brand color
+    margin-top: 1rem;
+  }
+  
+  .services .card-text {
+    font-size: 1rem;
+    color: #6c757d; // Muted color for readability
+  }
+  
+  .services .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .services .btn-primary:hover {
+    background-color: #0056b3; // Darker on hover for interaction
+  }
+  
+  // Call to Action
+  .contact-us {
+    background-color: #007bff;
+    padding: 3rem;
+    border-radius: 0.5rem; // Matching the overall design
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
+  }
+  
+  .contact-us h2 {
+    font-size: 2.5rem;
+  }
+  
+  .contact-us p {
+    font-size: 1.25rem;
+    color: #f1f1f1; // Softer text color for readability
+  }
+  
+  .contact-us .btn-light {
+    color: #007bff; // Primary color for text
+    background-color: #ffffff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-us .btn-light:hover {
+    background-color: #e2e6ea; // Slight gray on hover for a subtle effect
+  }
+  

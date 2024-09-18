@@ -1,0 +1,84 @@
+// Call to Action Section
+.call-to-action {
+    background-color: #f8f9fa; // Light background
+    border-radius: 0.5rem; // Rounded corners
+    padding: 3rem 2rem; // Added padding for more space
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
+  }
+  
+  .call-to-action h1 {
+    font-size: 3.5rem;
+    color: #007bff; // Primary color
+  }
+  
+  .call-to-action p {
+    font-size: 1.25rem; // Reduced for better balance
+    color: #6c757d; // Muted text color
+  }
+  
+  // Services Section
+  .services h2 {
+    font-size: 2.5rem;
+    color: #343a40; // Dark color for text
+    margin-bottom: 2rem;
+  }
+  
+  // Service Cards
+  .service-card {
+    border-radius: 0.5rem; // More prominent rounding
+    transition: transform 0.3s ease, box-shadow 0.3s ease; // Smooth hover transition
+    cursor: pointer;
+    border: none; // Removing border for cleaner look
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); // Initial shadow
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px); // Lifts the card on hover
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); // Stronger shadow on hover
+  }
+  
+  .service-card .card-title {
+    font-size: 1.5rem;
+    color: #007bff; // Primary color
+  }
+  
+  .service-card .card-text {
+    font-size: 1.125rem;
+    color: #6c757d; // Muted color for text
+  }
+  
+  // Contact Info
+  .contact-info {
+    margin-top: 4rem;
+    background-color: #f1f1f1; // Light gray background
+    padding: 2rem 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .contact-info h2 {
+    font-size: 2.5rem;
+    color: #343a40; // Dark color for text
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info p {
+    font-size: 1.25rem;
+    color: #6c757d; // Muted text color
+  }
+  
+  /* Enhanced Brand Name */
+.brand-name {
+    font-family: 'Montserrat', sans-serif; /* Choose a modern font */
+    font-size: 4rem; /* Larger font size for emphasis */
+    color: #007bff; /* Primary color for brand consistency */
+    font-weight: bold; /* Make the text bold */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    margin: 1rem 0; /* Spacing around the brand name */
+  }
+  
+  /* Container Styling for Brand Name */
+  .header-container {
+    text-align: center; /* Center the brand name */
+    padding: 2rem; /* Padding around the header */
+  }
+  

@@ -1,0 +1,70 @@
+/* Header Styles */
+header h1 {
+    font-size: 3.5rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  header p {
+    font-size: 1.5rem;
+  }
+  
+  /* Contact Details */
+  .contact-details p {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-details a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-details a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Contact Form */
+  .contact-form h2 {
+    font-size: 2.5rem;
+  }
+  
+  .contact-form .form-control {
+    border-radius: .25rem;
+  }
+  
+  .contact-form button {
+    border-radius: .25rem;
+    font-size: 1.125rem;
+  }
+  
+  /* Call to Action */
+  .bg-primary {
+    background-color: #007bff;
+  }
+  
+  .bg-primary h2 {
+    font-size: 2.5rem;
+  }
+  
+  .bg-primary p {
+    font-size: 1.25rem;
+  }
+  
+  .bg-primary .btn-primary {
+    color: #ffffff;
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  /* Map Styles */
+iframe {
+    border: none;
+    border-radius: .25rem; /* Optional: rounds corners */
+  }
+  
+  /* Contact Details */
+  .contact-details p {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+  }
+  

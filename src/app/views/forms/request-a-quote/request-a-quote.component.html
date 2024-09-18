@@ -1,0 +1,54 @@
+<!-- Request a Quote Section -->
+<section class="request-quote my-5">
+    <header class="text-center mb-4">
+      <h2>Request a Quote</h2>
+    </header>
+  
+    <form id="quote-form" class="container" [formGroup]="quoteForm" (ngSubmit)="onSubmit()">
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" formControlName="name" required>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" formControlName="email" required>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="phone" class="form-label">Phone</label>
+          <input type="text" class="form-control" id="phone" formControlName="phone">
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="make" class="form-label">Vehicle Make</label>
+          <input type="text" class="form-control" id="make" formControlName="make">
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="model" class="form-label">Vehicle Model</label>
+          <input type="text" class="form-control" id="model" formControlName="model">
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="year" class="form-label">Year of Vehicle</label>
+          <input type="text" class="form-control" id="year" formControlName="year">
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="contactMethod" class="form-label">Preferred Contact Method</label>
+          <select class="form-control" id="contactMethod" formControlName="contactMethod">
+            <option value="phone">Phone</option>
+            <option value="email">Email</option>
+          </select>
+        </div>
+        <div class="col-12 mb-3">
+          <label for="issue" class="form-label">Issue</label>
+          <textarea class="form-control" id="issue" formControlName="issue" rows="4" required></textarea>
+        </div>
+        <div class="col-12 mb-3">
+          <label for="comments" class="form-label">Additional Comments</label>
+          <textarea class="form-control" id="comments" formControlName="comments" rows="3"></textarea>
+        </div>
+        <div class="col-12 text-center">
+          <button type="submit" class="btn btn-primary">Request Quote</button>
+        </div>
+      </div>
+    </form>
+  </section>
+  
