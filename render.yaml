@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: my-angular-app
+    env: static
+    buildCommand: npm install && npm run build -- --prod
+    startCommand: npx serve -s dist
+    repo: https://github.com/GenieDragons/auto-brothers-ng
+    branch: main
+    autoDeploy: true
+    prPreviews: true
