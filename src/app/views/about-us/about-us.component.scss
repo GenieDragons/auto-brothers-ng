@@ -1,73 +1,106 @@
+/* Global Styles */
+$primary-color: #007bff;
+$text-color: #333;
+
 /* Header Styles */
 header h1 {
     font-size: 3.5rem;
     font-family: 'Roboto', sans-serif;
-  }
-  
-  header p {
+    color: $text-color;
+}
+
+header p {
     font-size: 1.5rem;
-  }
-  
-  /* Our Story Section */
-  .our-story {
-    background-color: #f8f9fa;
+    color: $text-color;
+}
+
+/* Our Story Section */
+.our-story {
+    background-color: #f8f9fa; /* Light background color */
     padding: 2rem;
     border-radius: .25rem;
-    box-shadow: 0 4px 6px rgba(0,0,0,.1);
-  }
-  
-  .our-story h2 {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .1);
+}
+
+.our-story h2 {
     font-size: 2.5rem;
-  }
-  
-  /* Mission Section */
-  .our-mission h2 {
-    font-size: 2.5rem;
-  }
-  
-  .our-mission ul li {
+    color: $text-color;
+}
+
+.our-story p {
     font-size: 1.125rem;
-  }
-  
-  /* Team Section */
-  .card {
+    color: $text-color;
+}
+
+/* Our Mission Section */
+.our-mission {
+    background-color: #f8f9fa; /* Matching background color */
+    padding: 2rem;
+    border-radius: .25rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .1);
+}
+
+.our-mission h2 {
+    font-size: 2.5rem;
+    color: $text-color;
+}
+
+.our-mission p {
+    font-size: 1.125rem;
+    color: $text-color;
+}
+
+.our-mission ul li {
+    font-size: 1.125rem;
+    color: $text-color;
+}
+
+.our-mission i {
+    font-size: 1.25rem;
+}
+
+/* Team Section */
+.card {
     border: none;
     border-radius: .25rem;
-  }
-  
-  .card-img-top {
+}
+
+.card-img-top {
     height: 250px;
     object-fit: cover;
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
-  }
-  
-  .card-title {
+}
+
+.card-title {
     font-size: 1.5rem;
-  }
-  
-  .card-text {
+    color: $text-color;
+}
+
+.card-text {
     font-size: 1rem;
-  }
-  
-  /* Call to Action */
-  .contact-us {
-    background-color: #007bff;
+    color: $text-color;
+}
+
+/* Call to Action */
+.contact-us {
+    background-color: $primary-color;
     padding: 3rem;
     border-radius: .25rem;
-  }
-  
-  .contact-us h2 {
+}
+
+.contact-us h2 {
     font-size: 2.5rem;
-  }
-  
-  .contact-us p {
+    color: #ffffff;
+}
+
+.contact-us p {
     font-size: 1.25rem;
-  }
-  
-  .contact-us .btn-light {
-    color: #007bff;
+    color: #ffffff;
+}
+
+.contact-us .btn-light {
+    color: $primary-color;
     background-color: #ffffff;
-    border-color: #007bff;
-  }
-  
+    border-color: $primary-color;
+}
